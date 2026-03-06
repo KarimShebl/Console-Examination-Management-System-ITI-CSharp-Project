@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Examination_Management_System.Events.ExamEventArgs">
+    <Position X="12" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\ExamEventArgs.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Exam" />
+      <Property Name="Subject" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Examination_Management_System.Exams.FinalExam">
+    <Position X="13.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAIACAAAAAAAAABA=</HashCode>
+      <FileName>Exams\FinalExam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Examination_Management_System.Exams.PracticeExam">
+    <Position X="15.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAIACAAAAAAAAABA=</HashCode>
+      <FileName>Exams\PracticeExam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Examination_Management_System.Models.Answer">
+    <Position X="6.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEgAAAAAAAAAAAAIAAAAAACAAAAAA=</HashCode>
+      <FileName>Models\Answer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Examination_Management_System.Models.AnswerList">
+    <Position X="4.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAACAAAAAQAAABAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Models\AnswerList.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="answers" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Examination_Management_System.Models.ChooseAllQuestion">
+    <Position X="0.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ChooseAllQuestion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Examination_Management_System.Models.ChooseOneQuestion">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ChooseOneQuestion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Examination_Management_System.Models.Question">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAEgAADAQAAAAAAAIBAQAQAAAAAAAA=</HashCode>
+      <FileName>Models\Question.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Answers" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Examination_Management_System.Models.QuestionList">
+    <Position X="16.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Models\QuestionList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Examination_Management_System.Models.TrueFalseQuestion">
+    <Position X="4.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\TrueFalseQuestion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Examination_Management_System.Students.Student">
+    <Position X="9.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAgAEgAAAAAQAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Students\Student.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Examination_Management_System.Students.Subject">
+    <Position X="10" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEhEAAAAQAAAABAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Students\Subject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Examination_Management_System.Exams.Exam">
+    <Position X="14.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAKAAAAAUgIAAAAAAAAAgAIAGAAAgAAEAARg=</HashCode>
+      <FileName>Exams\Exam.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Mode" />
+      <Property Name="Subject" />
+      <Property Name="Questions" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Collections.Generic.List&lt;T&gt;" Collapsed="true">
+    <Position X="16.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Enum Name="Examination_Management_System.Exams.ExamMode">
+    <Position X="12" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAQAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exams\ExamMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
